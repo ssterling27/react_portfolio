@@ -14,6 +14,4 @@ if (process.env.NODE_ENV === 'production') {
   })
 }
 
-syncDB()
-  .then(() => app.listen(process.env.PORT || 3001))
-  .catch(err => console.log(err))
+app.listen(process.env.PORT || 3001)

@@ -1,0 +1,105 @@
+.navButton {
+  background-color: rgb(20, 0, 199) !important;
+  color: white !important;
+  border: 0px !important;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+  margin-right: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Patua+One&family=Rajdhani:wght@600&display=swap');
+.navButton:hover {
+  background-color: rgb(27, 183, 255) !important;
+}
+
+#backgroundVideo {
+  position: fixed;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+}
+
+.title {
+  font-size: 8em !important;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: white !important;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 5em !important;
+  color: white !important;
+  text-align: center;
+  margin-bottom: 0.5% !important;
+}
+
+.creator {
+  font-family: Courgette;
+}
+
+.designer {
+  font-family: Patua One;
+}
+
+.developer {
+  font-family: Rajdhani;
+}
+
+.content {
+  position: relative;
+  color: #f1f1f1;
+  /* background-color: rgba(220, 244, 255, 0.801); */
+  margin-top: 10vh;
+}
+
+.paragraph {
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 3.5vh;
+  text-align: center;
+}
+
+.header {
+  font-size: 4em;
+  text-align: center;
+  color: black;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.skill {
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  margin: 2px;
+}
+
+.skill img {
+  width: 80%;
+}
+
+@media screen and (max-width: 860px) {
+  .navStyle {
+    width: 100% !important;
+  }
+  .navButton {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #SSLogo {
+    margin-left: 0 !important;
+  }
+  .title {
+    font-size: 5.25em !important;
+  }
+}
