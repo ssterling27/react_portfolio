@@ -30,7 +30,7 @@ const Home = () => {
           <p className='title'>SAMUEL</p>
           <p className='title'>STEINBERG</p>
           <p className='subtitle'><span className='creator'>Creator</span> / <span className='designer'>Designer</span> / <span className='developer'>Developer</span></p>
-          <p className='paragraph' style={{ color: 'white', marginLeft: '2%', marginRight: '2%', marginBottom: '2%' }}>Hi, I'm Sam. I'm relatively new to the world of web development, but I've made great progress in a short amount of time. I'm experienced in HTML, CSS, JavaScript, React, database arthitecture, and more. It may doubtful for me to have a true grasp of these topics given their depth and the short timespan, but I've put in a huge amount of effort and have gotten great results. You can check out my projects and skills below for yourself. I'm confident in my ability to get results and hone my skills even further as I continue to learn. Whatever the challenge, I'm up for it.</p>
+          <p className='paragraph' style={{ color: 'white', marginLeft: '2%', marginRight: '2%', marginBottom: '2%' }}>Hi, I'm Sam. I'm relatively new to the world of web development, but I've made great progress in a short amount of time. I'm experienced in HTML, CSS, JavaScript, React, database architecture, and more. It may doubtful for me to have a true grasp of these topics given their depth and the short time span, but I've put in a huge amount of effort and have gotten great results. You can check out my projects and skills below for yourself. I'm confident in my ability to get results and hone my skills even further as I continue to learn. Whatever the challenge, I'm up for it.</p>
         </div>
       </div>
       <div style={{ position: 'relative' }}>
